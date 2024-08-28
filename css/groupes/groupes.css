@@ -1,0 +1,43 @@
+/* titles */
+.tf {
+  font-family: rubik;
+  color: #f7e5d4;
+}
+
+/* paragraph */
+.pf {
+  font-family: rubik;
+  color: #f7e5d4;
+}
+
+/* images */
+.image-container {
+  height: 300px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top;
+}
+
+/* Navbar customizations */
+.text-custom {
+  color: #e9d9c8;
+}
+
+.bg2-custom {
+  background: rgba(0, 0, 0, 0.7);
+}
+
+/* Fix color for all nav-links, including the active one */
+.navbar-nav .nav-link {
+  color: #e9d9c8;
+}
+
+.navbar-nav .nav-link.active {
+  color: #e9d9c8 !important;
+}

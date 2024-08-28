@@ -1,0 +1,63 @@
+.hebergement-section {
+    padding: 40px;
+    border-radius: 12px;
+    margin-top: 50px;
+    font-family: 'Lato', sans-serif;
+}
+
+
+
+.hebergement-option h3 {
+    font-size: 2.2rem;
+
+    padding-left: 20px;
+    margin-bottom: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.hebergement-option {
+    margin-bottom: 40px;
+}
+
+.hebergement-option h3 {
+    font-size: 2.2rem;
+
+    padding-left: 20px;
+    margin-bottom: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.hebergement-option p {
+    font-size: 1.1rem;
+    color: #aeb7c0;
+    margin-bottom: 20px;
+    text-align: justify;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+@media (max-width: 768px) {
+    .hebergement-section {
+        padding: 20px;
+    }
+
+    .hebergement-section h2 {
+        font-size: 2.5rem;
+    }
+
+    .hebergement-option h3 {
+        font-size: 1.8rem;
+    }
+
+    .hebergement-section p {
+        font-size: 1rem;
+    }
+}
+
+.marg {
+    margin-top: 6rem;
+}

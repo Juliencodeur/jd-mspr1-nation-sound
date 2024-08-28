@@ -1,0 +1,1451 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Explorez les différents lieux du Nation Sound Festival. Découvrez les scènes, les espaces de restauration, et les autres installations pour profiter pleinement de l'événement.">
+
+  <!-- SEO and Social Media Meta Tags -->
+  <meta property="og:title" content="Nation Sound Festival - Lieux">
+  <meta property="og:description" content="Découvrez les lieux du Nation Sound Festival, y compris les scènes principales, les espaces de détente, et plus encore. Préparez votre visite en explorant les différents espaces du festival.">
+  <meta property="og:image" content="../../assets/img/logo.png">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Nation Sound Festival - Lieux">
+  <meta name="twitter:description" content="Explorez les lieux et installations du Nation Sound Festival pour profiter au maximum de votre expérience.">
+  <meta name="twitter:image" content="../../assets/img/logo.png">
+
+  <!-- Favicon -->
+  <link rel="icon" href="../../assets/favicon.ico" type="image/x-icon">
+  <link rel="apple-touch-icon" href="../../assets/logo.png">
+
+  <!-- CSS Links -->
+  <link rel="stylesheet" href="../../css/bootstrap/bootstrap.min.css">
+  <link rel="stylesheet" href="../../css/navbar/navbar.css">
+  <link rel="stylesheet" href="../../css/lieux/lieux.css">
+  <link rel="stylesheet" href="../../css/row/row.css">
+  <link rel="stylesheet" href="../../css/colors/colors.css">
+  <link rel="stylesheet" href="../../css/fonts/fonts.css">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=League+Gothic&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+
+  <!-- Title -->
+  <title>Lieux - Nation Sound Festival</title>
+</head>
+
+<body class="vh-100">
+  </div>
+  <!-- start navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg2-custom fixed-top">
+    <div class="container">
+      <!-- logo -->
+      <a class="navbar-brand fs-4" href="../../index.html"><img src="../../assets/img/logo.png" alt="Logo Festival">
+      </a>
+      <!-- toggle btn -->
+      <button class="navbar-toggler shadow-none border-0" type="button" data-bs-toggle="offcanvas"
+        data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!-- sidebar -->
+      <div class="sidebar offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar"
+        aria-labelledby="offcanvasNavbarLabel">
+        <!-- sidebar header-->
+        <div class="offcanvas-header text-white border-bottom">
+          <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Nation Sound</h5>
+          <button type="button" class="btn-close btn-close-white shadow-none" data-bs-dismiss="offcanvas"
+            aria-label="Close"></button>
+        </div>
+        <!-- sidebar body -->
+        <div class="offcanvas-body d-flex flex-column flex-lg-row p-4 p-lg-0">
+          <ul class="navbar-nav justify-content-center align-items-center fs-5 flex-grow-1 pe-3">
+            <li class="nav-item mx-2">
+              <a class="nav-link" aria-current="page" href="../../index.html">Infos</a>
+            </li>
+            <li class="nav-item dropdown mx-2">
+              <a class="nav-link dropdown-toggle" href="../../html/pages/programmation.html" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                Programmation
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="../../html/pages/dates.html">Dates</a></li>
+                <li><a class="dropdown-item" href="../../html/pages/heures.html">Heures</a></li>
+                <li><a class="dropdown-item" href="../../html/pages/lieux.html">Lieux</a></li>
+              </ul>
+            </li>
+            <li class="nav-item mx-2">
+              <a class="nav-link" href="../../html/pages/concerts.html">Concerts</a>
+            </li>
+            <li class="nav-item mx-2">
+              <a class="nav-link" href="../../html/pages/billetterie.html">Billetterie</a>
+            </li>
+            <li class="nav-item mx-2">
+              <a class="nav-link" href="../../html/pages/faq.html">FAQ</a>
+            </li>
+            <li class="nav-item mx-2">
+              <a class="nav-link" href="../../html/pages/carte.html">Carte</a>
+            </li>
+            <li class="nav-item mx-2">
+              <a class="nav-link" href="../../html/pages/reseaux-sociaux.html">Réseaux sociaux</a>
+            </li>
+            <li class="nav-item mx-2">
+              <a class="nav-link" href="../../html/pages/partenaires.html">Partenaires</a>
+            </li>
+          </ul>
+          <!-- login / sign up-->
+          <div class="d-flex flex-column flex-lg-row justify-content-center align-items-center gap-3">
+            <a href="#login" class="text-white">Connexion</a>
+            <a href="#signup" class="text-white text-decoration-none px-3 py-1  rounded-4"
+              style="background-color: #0d5f1f;">S'enregistrer</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!-- end navbar -->
+
+  <!-- start navbar days -->
+  <div class="container mt-5 pt-5">
+    <div class="row mt-5 pt-5">
+      <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
+        <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off" checked>
+        <label class="btn btn-outline-primary rounded-5" for="btnradio1" onclick="showCards('friday')">Vendredi
+          18</label>
+
+        <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off">
+        <label class="btn btn-outline-primary mx-3 rounded-5" for="btnradio2" onclick="showCards('saturday')">Samedi
+          19</label>
+
+        <input type="radio" class="btn-check" name="btnradio" id="btnradio3" autocomplete="off">
+        <label class="btn btn-outline-primary rounded-5" for="btnradio3" onclick="showCards('sunday')">Dimanche
+          20</label>
+      </div>
+    </div>
+  </div>
+  <!-- end navbar days-->
+  <!-- start dropdown lieux -->
+  <div class="container text-center mt-5 pt-5">
+    <div class="row mt-5">
+      <div class="dropdown-center">
+        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+          Choix de la scène
+        </button>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#sts">Starlight Stage</a></li>
+          <li><a class="dropdown-item" href="#sp">Sunset Pavilion</a></li>
+          <li><a class="dropdown-item" href="#ts">Texane Sunset</a></li>
+          <li><a class="dropdown-item" href="#hp">Harmony Plaza</a></li>
+          <li><a class="dropdown-item" href="#ma">Moonlit Arena</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <!-- end dropdown lieux -->
+
+  <!-- start places -->
+
+  <!-- start Starlight Stage -->
+  <div class="container mt-5">
+    <div class="row mt-5">
+      <h2 class="text-center title" id="sts">Starlight Stage</h2>
+      <!-- start card 01-->
+      <div class="col-12 col-md-6 col-lg-2 mt-2 mb-3 friday">
+        <div class="card">
+          <a href="../groupes/alpine-echoes.html">
+            <img src="../../assets/img/Alpines-Echoes.jpg" alt="image Alpine Echoes" class="card-img-top">
+          </a>
+          <div class="card-body text-center">
+            <h2 class="h3 card-title">Alpine <br>Echoes</h2>
+            <hr>
+            <p><img width="28" height="28" src="https://img.icons8.com/color/48/every-three-hours.png"
+                alt="every-three-hours" /> 12:00 - 13:30 </p>
+          </div>
+        </div>
+      </div>
+      <!-- end card 01-->
+      <!-- start card 02 -->
+      <div class="col-12 col-md-6 col-lg-2 mt-2 mb-3 friday">
+        <div class="card">
+          <a href="../groupes/desert-moon.html">
+            <img src="../../assets/img/desert-moonshine.jpg" alt="image Desert Moonshine" class="card-img-top">
+          </a>
+          <div class="card-body text-center">
+            <h3 class="h3 card-title">Desert <br>Moon</h3>
+            <hr>
+            <p><img width="28" height="28" src="https://img.icons8.com/color/48/every-three-hours.png"
+                alt="every-three-hours" /> 20:00 - 21:30 </p>
+          </div>
+        </div>
+      </div>
+      <!-- end card 02 -->
+      <!-- start card 03 -->
+      <div class="col-12 col-md-6 col-lg-2 mt-2 mb-3 friday">
+        <div class="card">
+          <a href="../groupes/prairie-fire.html">
+            <img src="../../assets/img/prairie-fire.jpg" alt="image Prairie Fire" class="card-img-top">
+          </a>
+          <div class="card-body text-center">
+            <h3 class="h3 card-title">Prairie <br>Fire</h3>
+            <hr>
+            <p><img width="28" height="28" src="https://img.icons8.com/color/48/every-three-hours.png"
+                alt="every-three-hours" /> 16:00 - 17:30 </p>
+          </div>
+        </div>
+      </div>
+      <!-- end card 03 -->
+      <!-- start card 04 -->
+      <div class="col-12 col-md-6 col-lg-2 mt-2 mb-3 friday">
+        <div class="card">
+          <a href="../groupes/maple-riders.html">
+            <img src="../../assets/img/maple-riders.jpg" alt="image Maple Riders" class="card-img-top">
+          </a>
+          <div class="card-body text-center">
+            <h3 class="h3 card-title">Maple <br>Riders</h3>
+            <hr>
+            <p><img width="28" height="28" src="https://img.icons8.com/color/48/every-three-hours.png"
+                alt="every-three-hours" /> 18:00 - 19:30 </p>
+          </div>
+        </div>
+      </div>
+      <!-- end card 03 -->
+      <!-- start card 04 -->
+      <div class="col-12 col-md-6 col-lg-2 mt-2 mb-3 friday">
+        <div class="card">
+          <a href="../groupes/rusty-spurs.html">
+            <img src="../../assets/img/rusty-spurs.jpg" alt="image Rusty Spurs" class="card-img-top">
+          </a>
+          <div class="card-body text-center">
+            <h3 class="h3 card-title">Rusty <br>Spurs</h3>
+            <hr>
+            <p><img width="28" height="28" src="https://img.icons8.com/color/48/every-three-hours.png"
+                alt="every-three-hours" /> 14:00 - 15:30 </p>
+          </div>
+        </div>
+      </div>
+      <!-- end card 04 -->
+      <!-- start card 05 -->
+      <div class="col-12 col-md-6 col-lg-2 mt-2 mb-3 saturday" style="display:none;">
+        <div class="card">
+          <a href="../groupes/sweet-grass.html">
+            <img src="../../assets/img/sweet-grass.jpg" alt="image Sweet Grass" class="card-img-top">
+          </a>
+          <div class="card-body text-center">
+            <h3 class="h3 card-title"> Sweet <br>Grass</h3>
+            <hr>
+            <p><img width="28" height="28" src="https://img.icons8.com/color/48/every-three-hours.png"
+                alt="every-three-hours" /> 18:00 - 19:30</p>
+          </div>
+        </div>
+      </div>
+      <!-- end card 05 -->
+      <!-- start card 06 -->
+      <div class="col-12 col-md-6 col-lg-2 mt-2 mb-3 saturday" style="display:none;">
+        <div class="card">
+          <a href="../groupes/golden-saddles.html">
+            <img src="../../assets/img/golden-saddles.jpg" alt="image Golden Saddles" class="card-img-top">
+          </a>
+          <div class="card-body text-center">
+            <h3 class="h3 card-title"> Golden <br>Saddles</h3>
+            <hr>
+            <p><img width="28" height="28" src="https://img.icons8.com/color/48/every-three-hours.png"
+                alt="every-three-hours" /> 12:00 - 13:30</p>
+          </div>
+        </div>
+      </div>
+      <!-- end card 06 -->
+      <!-- start card 07 -->
+      <div class="col-12 col-md-6 col-lg-2 mt-2 mb-3 saturday" style="display:none;">
+        <div class="card">
+          <a href="../groupes/green-valley.html">
+            <img src="../../assets/img/green-valley.jpg" alt="image Green Valley" class="card-img-top">
+          </a>
+          <div class="card-body text-center">
+            <h3 class="h3 card-title"> Green <br>Valley</h3>
+            <hr>
+            <p><img width="28" height="28" src="https://img.icons8.com/color/48/every-three-hours.png"
+                alt="every-three-hours" /> 20:00 - 21:30</p>
+          </div>
+        </div>
+      </div>
+      <!-- end card 07 -->
+      <!-- start card 08 -->
+      <div class="col-12 col-md-6 col-lg-2 mt-2 mb-3 saturday" style="display:none;">
+        <div class="card">
+          <a href="../groupes/coyote-creek.html">
+            <img src="../../assets/img/coyote-creek.jpg" alt="image Coyote Creek" class="card-img-top">
+          </a>
+          <div class="card-body text-center">
+            <h3 class="h3 card-title"> Coyote <br>Creek</h3>
+            <hr>
+            <p><img width="28" height="28" src="https://img.icons8.com/color/48/every-three-hours.png"
+                alt="every-three-hours" /> 14:00 - 15:30</p>
+          </div>
+        </div>
+      </div>
+      <!-- end card 08 -->
+      <!-- start card 09 -->
+      <div class="col-12 col-md-6 col-lg-2 mt-2 mb-3 saturday" style="display:none;">
+        <div class="card">
+          <a href="../groupes/painted-drifters.html">
+            <img src="../../assets/img/painted-drifters.jpg" alt="image Painted Drifters" class="card-img-top">
+          </a>
+          <div class="card-body text-center">
+            <h3 class="h3 card-title"> Painted <br>Drifters</h3>
+            <hr>
+            <p><img width="28" height="28" src="https://img.icons8.com/color/48/every-three-hours.png"
+                alt="every-three-hours" /> 16:00 - 17:30</p>
+          </div>
+        </div>
+      </div>
+      <!-- end card 09 -->
+      <!-- start card 10 -->
+      <div class="col-12 col-md-6 col-lg-2 mt-2 mb-3 sunday" style="display:none;">
+        <div class="card">
+          <a href="../groupes/out-band.html">
+            <img src="../../assets/img/out-band.jpg" alt="image Out Band" class="card-img-top">
+          </a>
+          <div class="card-body text-center">
+            <h3 class="h3 card-title">Out <br>Band
+            </h3>
+            <hr>
+            <p><img width="28" height="28" src="https://img.icons8.com/color/48/every-three-hours.png"
+                alt="every-three-hours" /> 12:00 - 13:30</p>
+          </div>
+        </div>
+      </div>
+      <!-- end card 11 -->
+      <!-- start card 12 -->
+      <div class="col-12 col-md-6 col-lg-2 mt-2 mb-3 sunday" style="display:none;">
+        <div class="card">
+          <a href="../groupes/tango-field.html">
+            <img src="../../assets/img/tango-field.jpg" alt="Tango Field" class="card-img-top">
+          </a>
+          <div class="card-body text-center">
+            <h3 class="h3 card-title">Tango <br>Field
+            </h3>
+            <hr>
+            <p><img width="28" height="28" src="https://img.icons8.com/color/48/every-three-hours.png"
+                alt="every-three-hours" /> 14:00 - 15:30</p>
+          </div>
+        </div>
+      </div>
+      <!-- end card 12 -->
+      <!-- start card 13 -->
+      <div class="col-12 col-md-6 col-lg-2 mt-2 mb-3 sunday" style="display:none;">
+        <div class="card">
+          <a href="../groupes/rusted-rails.html">
+            <img src="../../assets/img/rusted-rails.jpg" alt="image Rusted Rails" class="card-img-top">
+          </a>
+          <div class="card-body text-center">
+            <h3 class="h3 card-title">Rusted <br>Rails
+            </h3>
+            <hr>
+            <p><img width="28" height="28" src="https://img.icons8.com/color/48/every-three-hours.png"
+                alt="every-three-hours" /> 20:30 - 22:00</p>
+          </div>
+        </div>
+      </div>
+      <!-- end card 13 -->
+      <!-- start card 14 -->
+      <div class="col-12 col-md-6 col-lg-2 mt-2 mb-3 sunday" style="display:none;">
+        <div class="card">
+          <a href="../groupes/tidal-wave.html">
+            <img src="../../assets/img/tidal-wave.jpg" alt="image Tidal Wave" class="card-img-top">
+          </a>
+          <div class="card-body text-center">
+            <h3 class="h3 card-title">Tidal <br>Wave
+            </h3>
+            <hr>
+            <p><img width="28" height="28" src="https://img.icons8.com/color/48/every-three-hours.png"
+                alt="every-three-hours" /> 17:30 - 19:00</p>
+          </div>
+        </div>
+      </div>
+      <!-- end card 14 -->
+      <!-- start card 15 -->
+      <div class="col-12 col-md-6 col-lg-2 mt-2 mb-3 sunday" style="display:none;">
+        <div class="card">
+          <a href="../groupes/yellow-stone.html">
+            <img src="../../assets/img/yellow-stone.jpg" alt="image Yellow Stone" class="card-img-top">
+          </a>
+          <div class="card-body text-center">
+            <h3 class="h3 card-title">Yellow <br>Stone
+            </h3>
+            <hr>
+            <p><img width="28" height="28" src="https://img.icons8.com/color/48/every-three-hours.png"
+                alt="every-three-hours" /> 15:00 - 16:30</p>
+          </div>
+        </div>
+      </div>
+      <!-- end card 15 -->
+    </div>
+  </div>
+  <!-- end Starlight Stage -->
+
+  <!-- start Sunset Pavilion -->
+  <div class="container">
+    <div class="row">
+      <h2 class="text-center title" id="sp">Sunset Pavillon</h2>
+      <!-- start card 01 -->
+      <div class="col-12 col-md-6 col-lg-2 mt-2 mb-3 friday">
+        <div class="card">
+          <a href="../groupes/wagon-wheels.html">
+            <img src="../../assets/img/wagon-wheels.jpg" alt="image wagon-wheels" class="card-img-top">
+          </a>
+          <div class="card-body text-center">
+            <h3 class="h3 card-title">Wagon Wheels</h3>
+            <hr>
+            <p><img width="28" height="28" src="https://img.icons8.com/color/48/every-three-hours.png"
+                alt="every-three-hours" /> 12:30 - 14:00 </p>
+          </div>
+        </div>
+      </div>
+      <!-- end card 01-->
+      <!-- start card 02 -->
+      <div class="col-12 col-md-6 col-lg-2 mt-2 mb-3 friday">
+        <div class="card">
+          <a href="../groupes/lone-star.html">
+            <img src="../../assets/img/lone-star.jpg" alt="image Lone Star" class="card-img-top">
+          </a>
+          <div class="card-body text-center">
+            <h3 class="h3 card-title">Lone <br>Star</h3>
+            <hr>
+            <p><img width="28" height="28" src="https://img.icons8.com/color/48/every-three-hours.png"
+                alt="every-three-hours" /> 16:30 - 18:00 </p>
+          </div>
+        </div>
+      </div>
+      <!-- end card 02 -->
+      <!-- start card 03 -->
+      <div class="col-12 col-md-6 col-lg-2 mt-2 mb-3 friday">
+        <div class="card">
+          <a href="../groupes/twisted-trail.html">
+            <img src="../../assets/img/twisted-trail.jpg" alt="image Twisted Trail" class="card-img-top">
+          </a>
+          <div class="card-body text-center">
+            <h3 class="h3 card-title">Twisted <br>Trail</h3>
+            <hr>
+            <p><img width="28" height="28" src="https://img.icons8.com/color/48/every-three-hours.png"
+                alt="every-three-hours" /> 20:30 - 22:00 </p>
+          </div>
+        </div>
+      </div>
+      <!-- end card 03 -->
+      <!-- start card 04 -->
+      <div class="col-12 col-md-6 col-lg-2 mt-2 mb-3 friday">
+        <div class="card">
+          <a href="../groupes/wisk-river.html">
+            <img src="../../assets/img/Whisk River.jpg" alt="image Wisk River" class="card-img-top">
+          </a>
+          <div class="card-body text-center">
+            <h3 class="h3 card-title"> Wisk <br>River</h3>
+            <hr>
+            <p><img width="28" height="28" src="https://img.icons8.com/color/48/every-three-hours.png"
+                alt="every-three-hours" /> 18:30 - 20:00 </p>
+          </div>
+        </div>
+      </div>
+      <!-- end card 04 -->
+      <!-- start card 05 -->
+      <div class="col-12 col-md-6 col-lg-2 mt-2 mb-3 friday">
+        <div class="card">
+          <a href="../groupes/whale-point.html">
+            <img src="../../assets/img/whale-point.jpg" alt="image Whale Point" class="card-img-top">
+          </a>
+          <div class="card-body text-center">
+            <h3 class="h3 card-title"> Whale <br>Point</h3>
+            <hr>
+            <p><img width="28" height="28" src="https://img.icons8.com/color/48/every-three-hours.png"
+                alt="every-three-hours" /> 14:30 - 16:00 </p>
+          </div>
+        </div>
+      </div>
+      <!-- end card 05 -->
+      <!-- start card 06 -->
+      <div class="col-12 col-md-6 col-lg-2 mt-2 mb-3 saturday" style="display:none;">
+        <div class="card">
+          <a href="../groupes/dust-bowl.html">
+            <img src="../../assets/img/dust-bowl.jpg" alt="image Dust Bowl" class="card-img-top">
+          </a>
+          <div class="card-body text-center">
+            <h3 class="h3 card-title"> Dust <br>Bowl</h3>
+            <hr>
+            <p><img width="28" height="28" src="https://img.icons8.com/color/48/every-three-hours.png"
+                alt="every-three-hours" /> 12:30 - 14:00</p>
+          </div>
+        </div>
+      </div><!-- end card 06-->
+      <!-- start card 07 -->
+      <div class="col-12 col-md-6 col-lg-2 mt-2 mb-3 saturday" style="display:none;">
+        <div class="card">
+          <a href="../groupes/sunny-brook.html">
+            <img src="../../assets/img/sunny-brook.jpg" alt="image Sunny Brook" class="card-img-top">
+          </a>
+          <div class="card-body text-center">
+            <h3 class="h3 card-title"> Sunny <br>Brook</h3>
+            <hr>
+            <p><img width="28" height="28" src="https://img.icons8.com/color/48/every-three-hours.png"
+                alt="every-three-hours" /> 14:30 - 16:00</p>
+          </div>
+        </div>
+      </div>
+      <!-- end card 07 -->
+      <!-- start card 08 -->
+      <div class="col-12 col-md-6 col-lg-2 mt-2 mb-3 saturday" style="display:none;">
+        <div class="card">
+          <a href="../groupes/wild-west.html">
+            <img src="../../assets/img/wild-west.jpg" alt="image Wild West" class="card-img-top">
+          </a>
+          <div class="card-body text-center">
+            <h3 class="h3 card-title"> Wild <br>West</h3>
+            <hr>
+            <p><img width="28" height="28" src="https://img.icons8.com/color/48/every-three-hours.png"
+                alt="every-three-hours" /> 20:30 - 22:00</p>
+          </div>
+        </div>
+      </div>
+      <!-- end card 08 -->
+      <!-- start card 09 -->
+      <div class="col-12 col-md-6 col-lg-2 mt-2 mb-3 saturday" style="display:none;">
+        <div class="card">
+          <a href="../groupes/copper-country.html">
+            <img src="../../assets/img/copper-country.jpg" alt="image Copperhead Country" class="card-img-top">
+          </a>
+          <div class="card-body text-center">
+            <h3 class="h3 card-title"> Copper <br>County</h3>
+            <hr>
+            <p><img width="28" height="28" src="https://img.icons8.com/color/48/every-three-hours.png"
+                alt="every-three-hours" /> 15:00 - 16:30</p>
+          </div>
+        </div>
+      </div>
+      <!-- end card 09 -->
+      <!-- start card 10 -->
+      <div class="col-12 col-md-6 col-lg-2 mt-2 mb-3 saturday" style="display:none;">
+        <div class="card">
+          <a href="../groupes/rocky-ridge.html">
+            <img src="../../assets/img/rocky-ridge.jpg" alt="image Rocky Ridge" class="card-img-top">
+          </a>
+          <div class="card-body text-center">
+            <h3 class="h3 card-title"> Rocky <br>Ridge</h3>
+            <hr>
+            <p><img width="28" height="28" src="https://img.icons8.com/color/48/every-three-hours.png"
+                alt="every-three-hours" /> 18:30 - 20:00</p>
+          </div>
+        </div>
+      </div>
+      <!-- end card 10 -->
+      <!-- start card 11 -->
+      <div class="col-12 col-md-6 col-lg-2 mt-2 mb-3 sunday" style="display:none;">
+        <div class="card">
+          <a href="../groupes/painted-posse.html">
+            <img src="../../assets/img/painted-posse.jpg" alt="image Painted Posse" class="card-img-top">
+          </a>
+          <div class="card-body text-center">
+            <h3 class="h3 card-title">Painted <br>Posse
+            </h3>
+            <hr>
+            <p><img width="28" height="28" src="https://img.icons8.com/color/48/every-three-hours.png"
+                alt="every-three-hours" /> 12:00 - 13:30</p>
+          </div>
+        </div>
+      </div>
+      <!-- end card 11 -->
+      <!-- start card 12 -->
+      <div class="col-12 col-md-6 col-lg-2 mt-2 mb-3 sunday" style="display:none;">
+        <div class="card">
+          <a href="../groupes/trail-ridge.html">
+            <img src="../../assets/img/trail-ridge.jpg" alt="Trail Ridge" class="card-img-top">
+          </a>
+          <div class="card-body text-center">
+            <h3 class="h3 card-title">Trail <br>Ridge
+            </h3>
+            <hr>
+            <p><img width="28" height="28" src="https://img.icons8.com/color/48/every-three-hours.png"
+                alt="every-three-hours" /> 12:30 - 14:00</p>
+          </div>
+        </div>
+      </div>
+      <!-- end card 12 -->
+      <!-- start card 13 -->
+      <div class="col-12 col-md-6 col-lg-2 mt-2 mb-3 sunday" style="display:none;">
+        <div class="card">
+          <a href="../groupes/birch-grove.html">
+            <img src="../../assets/img/birch-grove.jpg" alt="image Birch Grobe" class="card-img-top">
+          </a>
+          <div class="card-body text-center">
+            <h3 class="h3 card-title">Birch <br>Grove
+            </h3>
+            <hr>
+            <p><img width="28" height="28" src="https://img.icons8.com/color/48/every-three-hours.png"
+                alt="every-three-hours" /> 14:30 - 16:00</p>
+          </div>
+        </div>
+      </div>
+      <!-- end card 13 -->
+      <!-- start card 14 -->
+      <div class="col-12 col-md-6 col-lg-2 mt-2 mb-3 sunday" style="display:none;">
+        <div class="card">
+          <a href="../groupes/bluff-point.html">
+            <img src="../../assets/img/bluff-point.jpg" alt="image Bluff Point" class="card-img-top">
+          </a>
+          <div class="card-body text-center">
+            <h3 class="h3 card-title">Bluff <br>Point
+            </h3>
+            <hr>
+            <p><img width="28" height="28" src="https://img.icons8.com/color/48/every-three-hours.png"
+                alt="every-three-hours" /> 18:30 - 20:00</p>
+          </div>
+        </div>
+      </div>
+      <!-- end card 14 -->
+      <!-- start card 15 -->
+      <div class="col-12 col-md-6 col-lg-2 mt-2 mb-3 sunday" style="display:none;">
+        <div class="card">
+          <a href="../groupes/prairie-riders.html">
+            <img src="../../assets/img/prairie-riders.jpg" alt="image Prairie Riders" class="card-img-top">
+          </a>
+          <div class="card-body text-center">
+            <h3 class="h3 card-title">Prairie <br>Riders
+            </h3>
+            <hr>
+            <p><img width="28" height="28" src="https://img.icons8.com/color/48/every-three-hours.png"
+                alt="every-three-hours" /> 16:30 - 18:00</p>
+          </div>
+        </div>
+      </div>
+      <!-- end card 15 -->
+
+    </div>
+  </div>
+  <!-- end Sunset Pavilion -->
+
+  <!-- start Texane Sunset-->
+  <div class="container">
+    <div class="row">
+      <h2 class="text-center haut title" id="ts">Texane Sunset</h2>
+      <!-- start card 01 -->
+      <div class="col-12 col-md-6 col-lg-2 mt-2 mb-3 friday">
+        <div class="card">
+          <a href="../groupes/dusty-roads.html">
+            <img src="../../assets/img/dusty-roads.jpg" alt="Dusty Roads" class="card-img-top">
+          </a>
+          <div class="card-body text-center">
+            <h3 class="h3 card-title">Dusty <br>Roads</h3>
+            <hr>
+            <p><img width="28" height="28" src="https://img.icons8.com/color/48/every-three-hours.png"
+                alt="every-three-hours" /> 13:00 - 14:30 </p>
+          </div>
+        </div>
+      </div>
+      <!-- end card 01 -->
+      <!-- start card 02 -->
+      <div class="col-12 col-md-6 col-lg-2 mt-2 mb-3 friday">
+        <div class="card">
+          <a href="../groupes/lucky-stars.html">
+            <img src="../../assets/img/lucky-stars.jpg" alt="image Lucky Stars" class="card-img-top">
+          </a>
+          <div class="card-body text-center">
+            <h3 class="h3 card-title">Lucky <br>Stars</h3>
+            <hr>
+            <p><img width="28" height="28" src="https://img.icons8.com/color/48/every-three-hours.png"
+                alt="every-three-hours" /> 15:00 - 16:30 </p>
+          </div>
+        </div>
+      </div>
+      <!-- end card 02 -->
+      <!-- start card 03 -->
+      <div class="col-12 col-md-6 col-lg-2 mt-2 mb-3 friday">
+        <div class="card">
+          <a href="../groupes/canyon-echoes.html">
+            <img src="../../assets/img/canyon-echoes.jpg" alt="image Canyon Echoes" class="card-img-top">
+          </a>
+          <div class="card-body text-center">
+            <h3 class="h3 card-title">Canyon <br>Echoes</h3>
+            <hr>
+            <p><img width="28" height="28" src="https://img.icons8.com/color/48/every-three-hours.png"
+                alt="every-three-hours" /> 17:00 - 18:30 </p>
+          </div>
+        </div>
+      </div>
+      <!-- end card 03 -->
+      <!-- start card 04 -->
+      <div class="col-12 col-md-6 col-lg-2 mt-2 mb-3 friday">
+        <div class="card">
+          <a href="../groupes/rebel-ridge.html">
+            <img src="../../assets/img/rebel-ridge.jpg" alt="image Rebel Ridge" class="card-img-top">
+          </a>
+          <div class="card-body text-center">
+            <h3 class="h3 card-title">Rebel <br>Ridge</h3>
+            <hr>
+            <p><img width="28" height="28" src="https://img.icons8.com/color/48/every-three-hours.png"
+                alt="every-three-hours" /> 19:00 - 20:30 </p>
+          </div>
+        </div>
+      </div>
+      <!-- end card 04 -->
+      <!-- start card 05 -->
+      <div class="col-12 col-md-6 col-lg-2 mt-2 mb-3 friday">
+        <div class="card">
+          <a href="../groupes/silver-horse.html">
+            <img src="../../assets/img/silver-horse.jpg" alt="image Silver Horse" class="card-img-top">
+          </a>
+          <div class="card-body text-center">
+            <h3 class="h3 card-title"> Silver <br>Horse</h3>
+            <hr>
+            <p><img width="28" height="28" src="https://img.icons8.com/color/48/every-three-hours.png"
+                alt="every-three-hours" /> 21:00 - 22:30 </p>
+          </div>
+        </div>
+      </div>
+      <!-- end card 05 -->
+      <!-- start card 06 -->
+      <div class="col-12 col-md-6 col-lg-2 mt-2 mb-3 saturday" style="display:none;">
+        <div class="card">
+          <a href="../groupes/pine-valley.html">
+            <img src="../../assets/img/pine-valley.jpg" alt="image Pine Valley" class="card-img-top">
+          </a>
+          <div class="card-body text-center">
+            <h3 class="h3 card-title">Pine <br>Valley</h3>
+            <hr>
+            <p><img width="28" height="28" src="https://img.icons8.com/color/48/every-three-hours.png"
+                alt="every-three-hours" /> 21:00 - 22:30</p>
+          </div>
+        </div>
+      </div>
+      <!-- end card 06 -->
+      <!-- start card 07 -->
+      <div class="col-12 col-md-6 col-lg-2 mt-2 mb-3 saturday" style="display:none;">
+        <div class="card">
+          <a href="../groupes/sunset-trail.html">
+            <img src="../../assets/img/sunset-trail.jpg" alt="image Sunset Trail" class="card-img-top">
+          </a>
+          <div class="card-body text-center">
+            <h3 class="h3 card-title">Sunset <br>Trail</h3>
+            <hr>
+            <p><img width="28" height="28" src="https://img.icons8.com/color/48/every-three-hours.png"
+                alt="every-three-hours" /> 17:00 - 18:30</p>
+          </div>
+        </div>
+      </div>
+      <!-- end card 07 -->
+      <!-- start card 08 -->
+      <div class="col-12 col-md-6 col-lg-2 mt-2 mb-3 saturday" style="display:none;">
+        <div class="card">
+          <a href="../groupes/steel-horses.html">
+            <img src="../../assets/img/steel-horses.jpg" alt="Steel Horses" class="card-img-top">
+          </a>
+          <div class="card-body text-center">
+            <h3 class="h3 card-title"> Steel <br>Horses</h3>
+            <hr>
+            <p><img width="28" height="28" src="https://img.icons8.com/color/48/every-three-hours.png"
+                alt="every-three-hours" /> 13:00 - 14:30</p>
+          </div>
+        </div>
+      </div>
+      <!-- end card 08 -->
+      <!-- start card 09 -->
+      <div class="col-12 col-md-6 col-lg-2 mt-2 mb-3 saturday" style="display:none;">
+        <div class="card">
+          <a href="../groupes/rebel-prairie.html">
+            <img src="../../assets/img/rebel-prairie.jpg" alt="image Rebel Prairie" class="card-img-top">
+          </a>
+          <div class="card-body text-center">
+            <h3 class="h3 card-title"> Rebel <br>Prairie</h3>
+            <hr>
+            <p><img width="28" height="28" src="https://img.icons8.com/color/48/every-three-hours.png"
+                alt="every-three-hours" /> 19:00 - 20:30</p>
+          </div>
+        </div>
+      </div>
+      <!-- end card 09 -->
+      <!-- start card 10 -->
+      <div class="col-12 col-md-6 col-lg-2 mt-2 mb-3 sunday" style="display:none;">
+        <div class="card">
+          <a href="../groupes/briar-patch.html">
+            <img src="../../assets/img/briar-patch.jpg" alt="image Briar Patch" class="card-img-top">
+          </a>
+          <div class="card-body text-center">
+            <h3 class="h3 card-title">Briar <br>Patch
+            </h3>
+            <hr>
+            <p><img width="28" height="28" src="https://img.icons8.com/color/48/every-three-hours.png"
+                alt="every-three-hours" /> 21:00 - 22:30</p>
+          </div>
+        </div>
+      </div>
+      <!-- end card 10 -->
+      <!-- start card 11 -->
+      <div class="col-12 col-md-6 col-lg-2 mt-2 mb-3 sunday" style="display:none;">
+        <div class="card">
+          <a href="../groupes/cooper-canyon.html">
+            <img src="../../assets/img/cooper-canyon.jpg" alt="image Cooper Canyon" class="card-img-top">
+          </a>
+          <div class="card-body text-center">
+            <h3 class="h3 card-title">Cooper <br>Canyon
+            </h3>
+            <hr>
+            <p><img width="28" height="28" src="https://img.icons8.com/color/48/every-three-hours.png"
+                alt="every-three-hours" /> 14:00 - 15:30</p>
+          </div>
+        </div>
+      </div>
+      <!-- end card 11 -->
+      <!-- start card 12 -->
+      <div class="col-12 col-md-6 col-lg-2 mt-2 mb-3 sunday" style="display:none;">
+        <div class="card">
+          <a href="../groupes/dusty-trails.html">
+            <img src="../../assets/img/dusty-trails.jpg" alt="image Dusty Trails" class="card-img-top">
+          </a>
+          <div class="card-body text-center">
+            <h3 class="h3 card-title">Dusty <br>Trails
+            </h3>
+            <hr>
+            <p><img width="28" height="28" src="https://img.icons8.com/color/48/every-three-hours.png"
+                alt="every-three-hours" /> 13:00 - 14:30</p>
+          </div>
+        </div>
+      </div>
+      <!-- end card 12 -->
+      <!-- start card 13 -->
+      <div class="col-12 col-md-6 col-lg-2 mt-2 mb-3 sunday" style="display:none;">
+        <div class="card">
+          <a href="../groupes/rebel-trail.html">
+            <img src="../../assets/img/rebel-trail.jpg" alt="image Rebel Trail" class="card-img-top">
+          </a>
+          <div class="card-body text-center">
+            <h3 class="h3 card-title">Rebel <br>Trail
+            </h3>
+            <hr>
+            <p><img width="28" height="28" src="https://img.icons8.com/color/48/every-three-hours.png"
+                alt="every-three-hours" /> 17:00 - 18:30</p>
+          </div>
+        </div>
+      </div>
+      <!-- end card 13 -->
+      <!-- start card 14 -->
+      <div class="col-12 col-md-6 col-lg-2 mt-2 mb-3 sunday" style="display:none;">
+        <div class="card">
+          <a href="../groupes/yacht-club.html">
+            <img src="../../assets/img/yacht-club.jpg" alt="image Yacht Club" class="card-img-top">
+          </a>
+          <div class="card-body text-center">
+            <h3 class="h3 card-title">Yacht <br>Club
+            </h3>
+            <hr>
+            <p><img width="28" height="28" src="https://img.icons8.com/color/48/every-three-hours.png"
+                alt="every-three-hours" /> 19:00 - 20:30</p>
+          </div>
+        </div>
+      </div>
+      <!-- end card 14 -->
+      <!-- start card 15 -->
+      <div class="col-12 col-md-6 col-lg-2 mt-2 mb-3 saturday" style="display:none;">
+        <div class="card">
+          <a href="../groupes/tumble-trouble.html">
+            <img src="../../assets/img/tumble-trouble.jpg" alt="image Tumble Trouble" class="card-img-top">
+          </a>
+          <div class="card-body text-center">
+            <h3 class="h3 card-title"> Tumble Trouble</h3>
+            <hr>
+            <p><img width="28" height="28" src="https://img.icons8.com/color/48/every-three-hours.png"
+                alt="every-three-hours" /> 16:30 - 18:00</p>
+          </div>
+        </div>
+      </div>
+      <!-- end card 15 -->
+    </div>
+  </div>
+  <!-- end Texane Sunset -->
+
+  <!-- start Harmony Plaza -->
+  <div class="container">
+    <div class="row">
+      <h2 class="text-center title" id="hp">Harmony Plaza</h2>
+      <!-- start card 1 -->
+      <div class="col-12 col-md-6 col-lg-2 mt-2 mb-3 friday">
+        <div class="card">
+          <a href="../groupes/river-plains.html">
+            <img src="../../assets/img/river-plains.jpg" alt="Sagebrush Saints" class="card-img-top">
+          </a>
+          <div class="card-body text-center">
+            <h3 class="h3 card-title">river <br>plains</h3>
+            <hr>
+            <p><img width="28" height="28" src="https://img.icons8.com/color/48/every-three-hours.png"
+                alt="every-three-hours" /> 17:30 - 19:00 </p>
+          </div>
+        </div>
+      </div>
+      <!-- end card 01 -->
+      <!-- start card 02 -->
+      <div class="col-12 col-md-6 col-lg-2 mt-2 mb-3 friday">
+        <div class="card">
+          <a href="../groupes/prairie-ghosts.html">
+            <img src="../../assets/img/prairie-ghost.jpg" alt="image Prairie Ghost" class="card-img-top">
+          </a>
+          <div class="card-body text-center">
+            <h3 class="h3 card-title">Prairie <br>Ghosts</h3>
+            <hr>
+            <p><img width="28" height="28" src="https://img.icons8.com/color/48/every-three-hours.png"
+                alt="every-three-hours" /> 21:30 - 23:00 </p>
+          </div>
+        </div>
+      </div>
+      <!-- end card 02 -->
+      <!-- start card 03 -->
+      <div class="col-12 col-md-6 col-lg-2 mt-2 mb-3 friday">
+        <div class="card">
+          <a href="../groupes/outlaw-ridge.html">
+            <img src="../../assets/img/outlaw-ridge.jpg" alt="image Outlaw Ridge" class="card-img-top">
+          </a>
+          <div class="card-body text-center">
+            <h3 class="h3 card-title">Outlaw <br>Ridge</h3>
+            <hr>
+            <p><img width="28" height="28" src="https://img.icons8.com/color/48/every-three-hours.png"
+                alt="every-three-hours" /> 19:30 - 21:00 </p>
+          </div>
+        </div>
+      </div>
+      <!-- end card 03 -->
+      <!-- start card 04 -->
+      <div class="col-12 col-md-6 col-lg-2 mt-2 mb-3 friday">
+        <div class="card">
+          <a href="../groupes/frontier-spirit.html">
+            <img src="../../assets/img/frontier-spirit.jpg" alt="image Frontier Spirit" class="card-img-top">
+          </a>
+          <div class="card-body text-center">
+            <h3 class="h3 card-title">Frontier <br>Spirit</h3>
+            <hr>
+            <p><img width="28" height="28" src="https://img.icons8.com/color/48/every-three-hours.png"
+                alt="every-three-hours" /> 13:30 - 15:00 </p>
+          </div>
+        </div>
+      </div>
+      <!-- end card 04 -->
+      <!-- start card 05 -->
+      <div class="col-12 col-md-6 col-lg-2 mt-2 mb-3 friday">
+        <div class="card">
+          <a href="../groupes/young-creek.html">
+            <img src="../../assets/img/young-creek.jpg" alt="image Young Creeks" class="card-img-top">
+          </a>
+          <div class="card-body text-center">
+            <h3 class="h3 card-title"> Young <br>Creek</h3>
+            <hr>
+            <p><img width="28" height="28" src="https://img.icons8.com/color/48/every-three-hours.png"
+                alt="every-three-hours" /> 15:30 - 17:00 </p>
+          </div>
+        </div>
+      </div>
+      <!-- end card 05 -->
+      <!-- start card 06 -->
+      <div class="col-12 col-md-6 col-lg-2 mt-2 mb-3 saturday" style="display:none;">
+        <div class="card">
+          <a href="../groupes/high-noon.html">
+            <img src="../../assets/img/high-noon.jpg" alt="image High Noon" class="card-img-top">
+          </a>
+          <div class="card-body text-center">
+            <h3 class="h3 card-title"> High <br>Noon</h3>
+            <hr>
+            <p><img width="28" height="28" src="https://img.icons8.com/color/48/every-three-hours.png"
+                alt="every-three-hours" /> 13:30 - 15:00</p>
+          </div>
+        </div>
+      </div>
+      <!-- end card 06 -->
+      <!-- start card 07 -->
+      <div class="col-12 col-md-6 col-lg-2 mt-2 mb-3 saturday" style="display:none;">
+        <div class="card">
+          <a href="../groupes/thund-cowbo.html">
+            <img src="../../assets/img/thund-cowbo.jpg" alt="image Thund Cowbo" class="card-img-top">
+          </a>
+          <div class="card-body text-center">
+            <h3 class="h3 card-title"> Thund <br>Cowbo</h3>
+            <hr>
+            <p><img width="28" height="28" src="https://img.icons8.com/color/48/every-three-hours.png"
+                alt="every-three-hours" /> 15:30 - 17:00</p>
+          </div>
+        </div>
+      </div>
+      <!-- end card 07 -->
+      <!-- start card 08 -->
+      <div class="col-12 col-md-6 col-lg-2 mt-2 mb-3 saturday" style="display:none;">
+        <div class="card">
+          <a href="../groupes/rusty-riders.html">
+            <img src="../../assets/img/rusty-riders.jpg" alt="image Rusty Riders" class="card-img-top">
+          </a>
+          <div class="card-body text-center">
+            <h3 class="h3 card-title"> Rusty <br>Riders</h3>
+            <hr>
+            <p><img width="28" height="28" src="https://img.icons8.com/color/48/every-three-hours.png"
+                alt="every-three-hours" /> 21:30 - 23:00</p>
+          </div>
+        </div>
+      </div>
+      <!-- end card 08 -->
+      <!-- start card 09 -->
+      <div class="col-12 col-md-6 col-lg-2 mt-2 mb-3 saturday" style="display:none;">
+        <div class="card">
+          <a href="../groupes/ocean-bluff.html">
+            <img src="../../assets/img/ocean-bluff.jpg" alt="image Ocean Bluff" class="card-img-top">
+          </a>
+          <div class="card-body text-center">
+            <h3 class="h3 card-title"> Ocean <br>Bluff</h3>
+            <hr>
+            <p><img width="28" height="28" src="https://img.icons8.com/color/48/every-three-hours.png"
+                alt="every-three-hours" /> 17:30 - 19:00</p>
+          </div>
+        </div>
+      </div>
+      <!-- end card 09 -->
+      <!-- start card 10 -->
+      <div class="col-12 col-md-6 col-lg-2 mt-2 mb-3 saturday" style="display:none;">
+        <div class="card">
+          <a href="../groupes/golden-prairie.html">
+            <img src="../../assets/img/golden-prairie.jpg" alt="image Golden Prairie" class="card-img-top">
+          </a>
+          <div class="card-body text-center">
+            <h3 class="h3 card-title"> Golden <br>Prairie</h3>
+            <hr>
+            <p><img width="28" height="28" src="https://img.icons8.com/color/48/every-three-hours.png"
+                alt="every-three-hours" /> 19:30 - 21:00</p>
+          </div>
+        </div>
+      </div>
+      <!-- end card 10 -->
+      <!-- start card 11 -->
+      <div class="col-12 col-md-6 col-lg-2 mt-2 mb-3 sunday" style="display:none;">
+        <div class="card">
+          <a href="../groupes/wind-desert.html">
+            <img src="../../assets/img/wind-desert.jpg" alt="image Harmony Plazza" class="card-img-top">
+          </a>
+          <div class="card-body text-center">
+            <h3 class="h3 card-title">Wind <br>Desert
+            </h3>
+            <hr>
+            <p><img width="28" height="28" src="https://img.icons8.com/color/48/every-three-hours.png"
+                alt="every-three-hours" /> 14:00 - 15:30</p>
+          </div>
+        </div>
+      </div>
+      <!-- end card 11 -->
+      <!-- start card 12 -->
+      <div class="col-12 col-md-6 col-lg-2 mt-2 mb-3 sunday" style="display:none;">
+        <div class="card">
+          <a href="../groupes/tiger-creek.html">
+            <img src="../../assets/img/tiger-creek.jpg" alt="image Tiger Creek" class="card-img-top">
+          </a>
+          <div class="card-body text-center">
+            <h3 class="h3 card-title">Tiger <br>Creek
+            </h3>
+            <hr>
+            <p><img width="28" height="28" src="https://img.icons8.com/color/48/every-three-hours.png"
+                alt="every-three-hours" /> 13:30 - 15:00</p>
+          </div>
+        </div>
+      </div>
+      <!-- end card 12 -->
+      <!-- start card 13 -->
+      <div class="col-12 col-md-6 col-lg-2 mt-2 mb-3 sunday" style="display:none;">
+        <div class="card">
+          <a href="../groupes/rocky-renega.html">
+            <img src="../../assets/img/rocky-renega.jpg" alt="image Rocky Renegades" class="card-img-top">
+          </a>
+          <div class="card-body text-center">
+            <h3 class="h3 card-title">Rocky Renega
+            </h3>
+            <hr>
+            <p><img width="28" height="28" src="https://img.icons8.com/color/48/every-three-hours.png"
+                alt="every-three-hours" /> 15:30 - 17:00</p>
+          </div>
+        </div>
+      </div>
+      <!-- end card 13 -->
+      <!-- start card 14 -->
+      <div class="col-12 col-md-6 col-lg-2 mt-2 mb-3 sunday" style="display:none;">
+        <div class="card">
+          <a href="../groupes/high-plains.html">
+            <img src="../../assets/img/high-plains.jpg" alt="image High Plains" class="card-img-top">
+          </a>
+          <div class="card-body text-center">
+            <h3 class="h3 card-title">High <br>Plains
+            </h3>
+            <hr>
+            <p><img width="28" height="28" src="https://img.icons8.com/color/48/every-three-hours.png"
+                alt="every-three-hours" /> 21:30 - 23:00</p>
+          </div>
+        </div>
+      </div>
+      <!-- end card 14 -->
+      <!-- star card 15 -->
+      <div class="col-12 col-md-6 col-lg-2 mt-2 mb-3 sunday" style="display:none;">
+        <div class="card">
+          <a href="../groupes/desert-echoes.html">
+            <img src="../../assets/img/desert-echoes.jpg" alt="image Desert Echoes" class="card-img-top">
+          </a>
+          <div class="card-body text-center">
+            <h3 class="h3 card-title">Desert <br>Echoes
+            </h3>
+            <hr>
+            <p><img width="28" height="28" src="https://img.icons8.com/color/48/every-three-hours.png"
+                alt="every-three-hours" /> 19:30 - 21:00</p>
+          </div>
+        </div>
+      </div>
+      <!-- start card 15 -->
+    </div>
+  </div>
+  <!-- end Harmony Plaza -->
+
+  <!-- start Moonlit Arena -->
+  <div class="container">
+    <div class="row">
+      <h2 class="text-center title" id="ma">Moonlight Arena</h2>
+      <!-- start card 01 -->
+      <div class="col-12 col-md-6 col-lg-2 mt-2 mb-3 friday">
+        <div class="card">
+          <a href="../groupes/roam-ranger.html">
+            <img src="../../assets/img/roam-ranger.jpg" alt="image Roaming Rangers" class="card-img-top">
+          </a>
+          <div class="card-body text-center">
+            <h3 class="h3 card-title">Roam <br>Ranger</h3>
+            <hr>
+            <p><img width="28" height="28" src="https://img.icons8.com/color/48/every-three-hours.png"
+                alt="every-three-hours" /> 22:00 - 23:30 </p>
+          </div>
+        </div>
+      </div>
+      <!-- end card 01 -->
+      <!-- start card 02 -->
+      <div class="col-12 col-md-6 col-lg-2 mt-2 mb-3 friday">
+        <div class="card">
+          <a href="../groupes/iron-horse.html">
+            <img src="../../assets/img/iron-horse.jpg" alt="image Iron Horse" class="card-img-top">
+          </a>
+          <div class="card-body text-center">
+            <h3 class="h3 card-title">Iron <br>Horse</h3>
+            <hr>
+            <p><img width="28" height="28" src="https://img.icons8.com/color/48/every-three-hours.png"
+                alt="every-three-hours" /> 14:00 - 15:30 </p>
+          </div>
+        </div>
+      </div>
+      <!-- end card 02 -->
+      <!-- start card 03 -->
+      <div class="col-12 col-md-6 col-lg-2 mt-2 mb-3 friday">
+        <div class="card">
+          <a href="../groupes/eagle-creek.html">
+            <img src="../../assets/img/eagle-creek.jpg" alt="image Egale Creek" class="card-img-top">
+          </a>
+          <div class="card-body text-center">
+            <h3 class="h3 card-title">Eagle <br>Creek</h3>
+            <hr>
+            <p><img width="28" height="28" src="https://img.icons8.com/color/48/every-three-hours.png"
+                alt="every-three-hours" /> 18:00 - 19:30 </p>
+          </div>
+        </div>
+      </div>
+      <!-- end card 03 -->
+      <!-- start card 04 -->
+      <div class="col-12 col-md-6 col-lg-2 mt-2 mb-3 friday">
+        <div class="card">
+          <a href="../groupes/copper-band.html">
+            <img src="../../assets/img/copper-band.jpg" alt="image Cooper Band" class="card-img-top">
+          </a>
+          <div class="card-body text-center">
+            <h3 class="h3 card-title">Copper <br>Band</h3>
+            <hr>
+            <p><img width="28" height="28" src="https://img.icons8.com/color/48/every-three-hours.png"
+                alt="every-three-hours" /> 16:00 - 17:30 </p>
+          </div>
+        </div>
+      </div>
+      <!-- end card 04 -->
+      <!-- start card 05 -->
+      <div class="col-12 col-md-6 col-lg-2 mt-2 mb-3 friday">
+        <div class="card">
+          <a href="../groupes/happy-acres.html">
+            <img src="../../assets/img/happy-acres.jpg" alt="image Happy Acres" class="card-img-top">
+          </a>
+          <div class="card-body text-center">
+            <h3 class="h3 card-title">Happy <br>Acres</h3>
+            <hr>
+            <p><img width="28" height="28" src="https://img.icons8.com/color/48/every-three-hours.png"
+                alt="every-three-hours" /> 20:00 - 21:30 </p>
+          </div>
+        </div>
+      </div>
+      <!-- end card 05 -->
+      <!-- start card 06 -->
+      <div class="col-12 col-md-6 col-lg-2 mt-2 mb-3 saturday" style="display:none;">
+        <div class="card">
+          <a href="../groupes/wilde-rebel.html">
+            <img src="../../assets/img/wilde-rebel.jpg" alt="test01" class="card-img-top">
+          </a>
+          <div class="card-body text-center">
+            <h3 class="h3 card-title">Wilde <br>Rebel</h3>
+            <hr>
+            <p><img width="28" height="28" src="https://img.icons8.com/color/48/every-three-hours.png"
+                alt="every-three-hours" /> 14:00 - 15:30</p>
+          </div>
+        </div>
+      </div>
+      <!-- end card 06 -->
+      <!-- start card 07 -->
+      <div class="col-12 col-md-6 col-lg-2 mt-2 mb-3 saturday" style="display:none;">
+        <div class="card">
+          <a href="../groupes/cedar-hill.html">
+            <img src="../../assets/img/cedar-hill.jpg" alt="image Cedar Hill" class="card-img-top">
+          </a>
+          <div class="card-body text-center">
+            <h3 class="h3 card-title"> Cedar <br>Hill</h3>
+            <hr>
+            <p><img width="28" height="28" src="https://img.icons8.com/color/48/every-three-hours.png"
+                alt="every-three-hours" /> 20:00 - 21:30</p>
+          </div>
+        </div>
+      </div>
+      <!-- end card 07 -->
+      <!-- start card 08 -->
+      <div class="col-12 col-md-6 col-lg-2 mt-2 mb-3 saturday" style="display:none;">
+        <div class="card">
+          <a href="../groupes/creek-rebels.html">
+            <img src="../../assets/img/creek-rebels.jpg" alt="image Creek Rebels" class="card-img-top">
+          </a>
+          <div class="card-body text-center">
+            <h3 class="h3 card-title"> Creek <br>Rebels</h3>
+            <hr>
+            <p><img width="28" height="28" src="https://img.icons8.com/color/48/every-three-hours.png"
+                alt="every-three-hours" /> 18:00 - 19:30</p>
+          </div>
+        </div>
+      </div>
+      <!-- end card 08 -->
+      <!-- start card 09 -->
+      <div class="col-12 col-md-6 col-lg-2 mt-2 mb-3 saturday" style="display:none;">
+        <div class="card">
+          <a href="../groupes/mirage-band.html">
+            <img src="../../assets/img/mirage-band.jpg" alt="image Mirage Band" class="card-img-top">
+          </a>
+          <div class="card-body text-center">
+            <h3 class="h3 card-title"> Mirage <br>Band</h3>
+            <hr>
+            <p><img width="28" height="28" src="https://img.icons8.com/color/48/every-three-hours.png"
+                alt="every-three-hours" /> 16:00 - 17:30</p>
+          </div>
+        </div>
+      </div>
+      <!-- end card 09 -->
+      <!-- start card 10 -->
+      <div class="col-12 col-md-6 col-lg-2 mt-2 mb-3 saturday" style="display:none;">
+        <div class="card">
+          <a href="../groupes/coper-trail.html">
+            <img src="../../assets/img/coper-trail.jpg" alt="image Cooper Trail" class="card-img-top">
+          </a>
+          <div class="card-body text-center">
+            <h3 class="h3 card-title"> Copper <br>Trail</h3>
+            <hr>
+            <p><img width="28" height="28" src="https://img.icons8.com/color/48/every-three-hours.png"
+                alt="every-three-hours" /> 22:00 - 23:30</p>
+          </div>
+        </div>
+      </div>
+      <!-- end card 10 -->
+      <!-- start card 11 -->
+      <div class="col-12 col-md-6 col-lg-2 mt-2 mb-3 sunday" style="display:none;">
+        <div class="card">
+          <a href="../groupes/silver-spur.html">
+            <img src="../../assets/img/silver-spur.jpg" alt="image Silver Spur" class="card-img-top">
+          </a>
+          <div class="card-body text-center">
+            <h3 class="h3 card-title">Silver <br>Spur
+            </h3>
+            <hr>
+            <p><img width="28" height="28" src="https://img.icons8.com/color/48/every-three-hours.png"
+                alt="every-three-hours" /> 14:00 - 15:30</p>
+          </div>
+        </div>
+      </div>
+      <!-- end card 11 -->
+      <!-- start card 12 -->
+      <div class="col-12 col-md-6 col-lg-2 mt-2 mb-3 sunday" style="display:none;">
+        <div class="card">
+          <a href="../groupes/timber-falls.html">
+            <img src="../../assets/img/timber-falls.jpg" alt="image Timber Falls" class="card-img-top">
+          </a>
+          <div class="card-body text-center">
+            <h3 class="h3 card-title">Timber <br>Falls
+            </h3>
+            <hr>
+            <p><img width="28" height="28" src="https://img.icons8.com/color/48/every-three-hours.png"
+                alt="every-three-hours" /> 20:00 - 21:30</p>
+          </div>
+        </div>
+      </div>
+      <!-- end card 12 -->
+      <!-- start card 13 -->
+      <div class="col-12 col-md-6 col-lg-2 mt-2 mb-3 sunday" style="display:none;">
+        <div class="card">
+          <a href="../groupes/canyon-cross.html">
+            <img src="../../assets/img/canyon-cross.jpg" alt="image Canyon Cross" class="card-img-top">
+          </a>
+          <div class="card-body text-center">
+            <h3 class="h3 card-title">Canyon Cross
+            </h3>
+            <hr>
+            <p><img width="28" height="28" src="https://img.icons8.com/color/48/every-three-hours.png"
+                alt="every-three-hours" /> 18:00 - 19:30</p>
+          </div>
+        </div>
+      </div>
+      <!-- end card 13 -->
+      <!-- star card 14 -->
+      <div class="col-12 col-md-6 col-lg-2 mt-2 mb-3 sunday" style="display:none;">
+        <div class="card">
+          <a href="../groupes/outlaw-bandits.html">
+            <img src="../../assets/img/outlaw-bandits.jpg" alt="image Outlaw Bandits" class="card-img-top">
+          </a>
+          <div class="card-body text-center">
+            <h3 class="h3 card-title">Outlaw <br>Bandits
+            </h3>
+            <hr>
+            <p><img width="28" height="28" src="https://img.icons8.com/color/48/every-three-hours.png"
+                alt="every-three-hours" /> 16:00 - 17:30</p>
+          </div>
+        </div>
+      </div>
+      <!-- end card 14 -->
+      <!-- start car 15 -->
+      <div class="col-12 col-md-6 col-lg-2 mt-2 mb-3 sunday" style="display:none;">
+        <div class="card">
+          <a href="../groupes/frontier-harmony.html">
+            <img src="../../assets/img/frontier-harmony.jpg" alt="image Frontier Harmony" class="card-img-top">
+          </a>
+          <div class="card-body text-center">
+            <h3 class="h3 card-title">Frontier <br>Harmony
+            </h3>
+            <hr>
+            <p><img width="28" height="28" src="https://img.icons8.com/color/48/every-three-hours.png"
+                alt="every-three-hours" /> 22:00 - 23:30</p>
+          </div>
+        </div>
+      </div>
+      <!-- end card 15 -->
+    </div>
+  </div>
+  <!-- end Moonlit Arena -->
+  <!-- end places -->
+
+  <!-- start footer -->
+  <footer class="bg-dark text-white pt-3 pb-3">
+    <div class="container text-center text-md-left">
+      <!-- Newsletter Form -->
+      <div class="row justify-content-center mb-4">
+        <div class="col-md-6">
+          <h5 class="text-uppercase fw-bold mb-3">Abonnez-vous à notre newsletter</h5>
+          <form class="d-flex">
+            <input type="email" class="form-control me-2" placeholder="Votre email" aria-label="Email" required>
+            <button class="btn btn-outline-light" type="submit">S'abonner</button>
+          </form>
+          <small class="form-text text-muted mt-2">Recevez les dernières nouvelles et mises à jour du festival.</small>
+        </div>
+      </div>
+      <!-- End Newsletter Form -->
+
+      <div class="row text-center text-md-left">
+
+        <!-- About Us -->
+        <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+          <h5 class="text-uppercase mb-4 font-weight-bold" style="color: #108d2b;">Contactez-nous</h5>
+          <p>Email: info@Nation Sound-melody-festival</p>
+          <p>Tél: +33 7 01 10 02 20</p>
+        </div>
+
+        <!-- Quick Links -->
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+          <h5 class="text-uppercase mb-4 font-weight-bold" style="color: #108d2b;">Liens rapides</h5>
+          <p><a href="../../index.html" class="text-white" style="text-decoration: none;">Informations</a></p>
+          <p><a href="../../html/pages/concerts.html" class="text-white" style="text-decoration: none;">Concerts</a>
+          </p>
+          <p><a href="../../html/pages/billetterie.html" class="text-white" style="text-decoration: none;">Billetterie</a>
+          <p><a href="../../html/pages/faq.html" class="text-white" style="text-decoration: none;">FAQ</a>
+          <p><a href="../../html/pages/carte.html" class="text-white" style="text-decoration: none;">Carte</a>
+          <p><a href="../../html/pages/partenaires.html" class="text-white"
+              style="text-decoration: none;">Partenaires</a>
+          </p>
+        </div>
+
+        <!-- Social Media -->
+        <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+          <h5 class="text-uppercase mb-4 font-weight-bold" style="color: #108d2b;">Suivez-nous</h5>
+          <a href="https://www.facebook.com/" target="_blank"><img width="48" height="48"
+              src="https://img.icons8.com/color/48/facebook-new.png" alt="facebook-new" /></a>
+          <a href="https://x.com/?lang=fr" target="_blank"><img width="48" height="48"
+              src="https://img.icons8.com/fluency/48/twitterx--v1.png" alt="twitterx--v1" /></a>
+          <a href="https://www.instagram.com" target="_blank"><img width="48" height="48"
+              src="https://img.icons8.com/color/48/instagram-new--v1.png" alt="instagram-new--v1" /></a>
+          <a href="https://www.youtube.com/" target="_blank"><img width="48" height="48"
+              src="https://img.icons8.com/color/48/youtube-play.png" alt="youtube-play" /></a>
+          <a href="https://www.snapchat.com/fr-FR" target="_blank"><img width="48" height="48"
+              src="https://img.icons8.com/fluency/48/snapchat.png" alt="snapchat" /></a>
+          <a href="https://fr.linkedin.com" target="_blank"><img width="48" height="48"
+              src="https://img.icons8.com/color/48/linkedin.png" alt="linkedin" /></a>
+        </div>
+      </div>
+
+      <hr class="mb-4">
+
+      <div class="row align-items-center">
+        <div class="footer-bottom">
+          <div class="container">
+            <p class="text-center">© 2024 Nation Sound</p>
+            <p class="text-center"><a href="../../html/footer/mentions-legales.html" target="_blank">Mentions
+                légales</a> |
+              <a href="../../html/footer/privacy.html" target="_blank">Politique de confidentialité</a>
+            </p>
+          </div>
+        </div>
+
+
+        <div class="col-md-5 col-lg-4">
+          <div class="text-center text-md-right">
+            <ul class="list-unstyled list-inline">
+              <li class="list-inline-item">
+                <a href="#" class="btn-floating btn-sm text-white" style="font-size: 23px;"><i
+                    class="fab fa-facebook"></i></a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#" class="btn-floating btn-sm text-white" style="font-size: 23px;"><i
+                    class="fab fa-twitter"></i></a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#" class="btn-floating btn-sm text-white" style="font-size: 23px;"><i
+                    class="fab fa-google"></i></a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#" class="btn-floating btn-sm text-white" style="font-size: 23px;"><i
+                    class="fab fa-linkedin"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- end footer -->
+  <!-- start row --> 
+  <button onclick="topFunction()" id="myBtn" title="Go to top">
+    <img src="https://img.icons8.com/material-outlined/24/circled-chevron-up.png" alt="circled-chevron-up"/>
+  </button>
+  <!-- end row -->
+
+  <!-- start script js -->
+  <script src="../../js/bootstrap/bootstrap.bundle.min.js"></script>
+  <script src="../../js/places/places.js"></script>
+  <script src="../../js/row/row.js"></script>
+</body>
+
+</html>

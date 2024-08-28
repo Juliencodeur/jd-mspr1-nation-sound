@@ -1,0 +1,41 @@
+.security-section {
+    color: #ecf0f1; /* This sets the default text color for everything in .security-section */
+    padding: 50px 0;
+    background-color: transparent;
+}
+
+.security-section h1,
+.security-section h3 {
+    color: #2ecc71; /* This explicitly sets the color of h1 and h3 titles to #ecf0f1 */
+}
+
+.security-section ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.security-section ul li {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.security-section .text-success {
+    color: #2ecc71;
+}
+
+.security-section .text-danger {
+    color: #e74c3c;
+}
+
+.security-section .text-info {
+    color: #3498db;
+}
+
+.security-section p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.marg {
+    margin-top: 6rem;
+}
