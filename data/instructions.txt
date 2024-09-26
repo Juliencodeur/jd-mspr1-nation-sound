@@ -1,0 +1,55 @@
+Le fichier JSON contient les informations de tous les lieux à afficher sur la carte.
+Si vous voulez ajouter un nouvel élément suivre les instructioins suivantes :
+
+    1) Ouvrir le fichiers lieux.json
+    2) Ajouter un nouveau lieu en suivant cette structure :
+        {
+            "nom": "Nom du lieu",
+            "lat": 48.8566,  // Coordonnées latitude
+            "lng": 2.3522,   // Coordonnées longitude
+            "description": "Description du lieu",
+            "categorie": "Nom de la catégorie",  // Catégorie à laquelle appartient ce lieu
+            "iconUrl": "https://lien-vers-icone.png"  // URL de l'icône pour ce lieu
+        }
+
+        Exemple : Ajouter un "Parking" pour les visiteurs :
+        {
+            "nom": "Parking visiteurs",
+            "lat": 48.8575,
+            "lng": 2.2340,
+            "description": "Parking disponible pour les visiteurs",
+            "categorie": "Parking",
+            "iconUrl": "https://img.icons8.com/color/48/parking.png"
+        }
+
+    3) Ajouter la catégorie dans le fichier JavaScript qui s'appelle map.json
+    4) Ajouter aux autres catégories l'élément souhaité
+
+    Exemple avec Parking dans le fichier js :
+
+    let icons = {
+    Entrée: "https://img.icons8.com/color/48/login-rounded-right.png",
+    Billetterie: "https://img.icons8.com/color/48/ticket.png",
+    Snacks: "https://img.icons8.com/color/48/french-fries.png",
+    Restaurant: "https://img.icons8.com/color/48/restaurant.png",
+    Buvettes: "https://img.icons8.com/color/48/bar-counter.png",
+    "Stands souvenirs": "https://img.icons8.com/color/48/gift.png",
+    Camping: "https://img.icons8.com/color/48/campsite.png",
+    Parking: "https://img.icons8.com/color/48/parking.png"  // Nouvelle catégorie ajoutée ici
+    };
+
+    5) Dans le fichier html ajouter la catégorie souhaitée
+
+    Exemple avec parking dans le fichier carte.html :
+
+    <select id="categoryFilter">
+    <option value="all">Toutes les catégories</option>
+    <option value="Entrée">Entrée</option>
+    <option value="Billetterie">Billetterie</option>
+    <option value="Snacks">Snacks</option>
+    <option value="Restaurant">Restaurant</option>
+    <option value="Buvettes">Buvettes</option>
+    <option value="Toilettes">Toilettes</option>
+    <option value="Parking">Parking</option>  <!-- Ajout de la catégorie Parking -->
+    </select>
+
