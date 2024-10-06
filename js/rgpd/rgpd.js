@@ -49,3 +49,6 @@ function saveCookieSettings() {
     var cookieModal = bootstrap.Modal.getInstance(document.getElementById('cookieManagementModal'));
     cookieModal.hide();
 }
+
+// Exporter les fonctions pour les tests
+module.exports = { acceptCookies, refuseCookies, manageCookies, saveCookieSettings };

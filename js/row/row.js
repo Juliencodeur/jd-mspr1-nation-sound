@@ -1,4 +1,4 @@
-//Script pour le bouton retour en haut
+// Script pour le bouton retour en haut
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
@@ -13,3 +13,6 @@ function topFunction() {
   document.body.scrollTop = 0; // Pour Safari
   document.documentElement.scrollTop = 0; // Pour Chrome, Firefox, IE et Opera
 }
+
+// Export des fonctions pour les tests
+module.exports = { scrollFunction, topFunction };

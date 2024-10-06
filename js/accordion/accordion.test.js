@@ -50,4 +50,3 @@ describe('closeOtherAccordions', () => {
     );
   });
 });
-clearImmediate
