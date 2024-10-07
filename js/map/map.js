@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
   // Initialisation de la carte, centrée sur un point spécifique
-  var map = L.map("map").setView([48.85904, 2.23224], 16);  // Centre sur Entrée
+  let map = L.map("map").setView([48.85904, 2.23224], 16);  // Centre sur Entrée
 
   // Ajout de la couche de tuiles (carte)
   L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
@@ -34,7 +34,7 @@ document.addEventListener("DOMContentLoaded", function () {
   };
 
   // Création des groupes de couches pour chaque catégorie
-  var categories = {};
+  let categories = {};
   Object.keys(icons).forEach(function (category) {
     categories[category] = L.layerGroup(); // Chaque catégorie est un groupe de marqueurs
   });
@@ -67,7 +67,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   // Fonction pour recentrer la carte sur une catégorie spécifique
   function recenterMapOnCategory(category) {
-    var bounds = L.latLngBounds([]);
+    let bounds = L.latLngBounds([]);
     categories[category].eachLayer(function (layer) {
       bounds.extend(layer.getLatLng());
     });
@@ -78,13 +78,13 @@ document.addEventListener("DOMContentLoaded", function () {
 
   // Logique de filtrage des catégories
   document.getElementById("categoryFilter").addEventListener("change", function () {
-    var selectedCategory = this.value;
+    let selectedCategory = this.value;
     if (selectedCategory === "geolocalisation") {
       map.locate({ setView: true, maxZoom: 16 });
     } else {
       Object.keys(categories).forEach(function (category) {
         if (selectedCategory === "all" || category === selectedCategory) {
-          map.addLayer(categories[category]); // On ajoute la catégorie sélectionnée
+          map.addLayer(categories[category]); // Ajoute la catégorie sélectionnée
           if (selectedCategory !== "all") {
             recenterMapOnCategory(selectedCategory); // Recentrage
           }
@@ -97,7 +97,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   // Gestion de la localisation de l'utilisateur
   map.on("locationfound", function (e) {
-    var radius = e.accuracy / 2;
+    let radius = e.accuracy / 2;
     L.marker(e.latlng)
       .addTo(map)
       .bindPopup("Vous êtes dans un rayon de " + radius + " mètres de ce point")

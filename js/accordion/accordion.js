@@ -71,5 +71,5 @@ document.querySelectorAll('.accordion-button').forEach(function(button) {
   });
 });
 
-// Exporter la fonction pour les tests
+// Export la fonction pour les tests
 module.exports = { closeOtherAccordions };
